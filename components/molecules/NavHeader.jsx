@@ -1,9 +1,9 @@
-import { View, Text, ScrollView, FlatList } from "react-native";
+import { View, Text, FlatList } from "react-native";
 
 const Tab = ({ title }) => {
   return (
-    <View className=" bg-red-600  rounded mx-1">
-      <Text className="px-2  py-1 text-sm text-white">{title}</Text>
+    <View className="bg-red-600 rounded-md mx-1 my-3">
+      <Text className="px-2 py-1 text-sm text-white uppercase font-semibold">{title}</Text>
     </View>
   );
 };

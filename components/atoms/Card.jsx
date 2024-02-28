@@ -14,7 +14,7 @@ const Card = ({ data }) => {
           source={{ uri: item.image }}
         />
 
-        <Text numberOfLines={2} className="text-lg py-2">
+        <Text numberOfLines={2} className="text-md py-1">
           {item.title}
         </Text>
         
