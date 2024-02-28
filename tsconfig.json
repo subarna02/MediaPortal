@@ -3,15 +3,20 @@
   "compilerOptions": {
     "strict": true,
     "paths": {
-      "@/*": [
-        "./*"
-      ]
+      "@/*": ["./*"]
     }
   },
   "include": [
     "**/*.ts",
     "**/*.tsx",
     ".expo/types/**/*.ts",
-    "expo-env.d.ts"
-, "app/modal.jsx", "app/+not-found.jsx", "app/+html.jsx", "app/_layout.js", "app/(tabs)/two.jsx", "app/(tabs)/index.jsx", "app/(tabs)/_layout.jsx"  ]
+    "expo-env.d.ts",
+    "app/modal.jsx",
+    "app/+not-found.jsx",
+    "app/+html.jsx",
+    "app/_layout.js",
+    "app/(tabs)/two.jsx",
+    "app/(tabs)/index.jsx",
+    "app/(tabs)/_layout.jsx"
+  ]
 }
