@@ -1,10 +1,10 @@
 import { View, Text } from "react-native";
-import Carousel from "react-native-snap-carousel";
-import TrendingCarousel from "../atoms/TrendingCarousel";
+
 import { LogBox } from "react-native";
 import Card from "../atoms/Card";
+import { Link } from "expo-router";
 
-const StateNews = () => {
+const State = () => {
   LogBox.ignoreLogs(["ViewPropTypes"]);
 
   const data = [
@@ -45,7 +45,7 @@ const StateNews = () => {
         <Text className="text-3xl font-medium">
           <Text className="text-red-600">State</Text> News
         </Text>
-        <Text className="text-2xl text-zinc-500">See all</Text>
+        <Link href='/newsPage/StateNews' className="text-lg text-zinc-500">See all</Link>
       </View>
       <View className="py-3">
         {/* <TrendingCarousel data={data} /> */}
@@ -55,4 +55,4 @@ const StateNews = () => {
   );
 };
 
-export default StateNews;
+export default State;

@@ -1,9 +1,6 @@
-import { View, Text } from "react-native";
-import React from "react";
-
-import "../global.css";
 import { Redirect } from "expo-router";
+const StartPage = () => {
+    return <Redirect href="/(auth)/Login" />;
+    };
 
-export default function Index() {
-  return <Redirect href="./auth/Login" />;
-}
+    export default StartPage;

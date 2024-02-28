@@ -22,8 +22,8 @@ export default function ScreenLayout() {
     // })}
     >
       <Tabs.Screen name="Home" options={{ headerShown: false }} />
-      <Tabs.Screen name="Discover" options={{ headerShown: false }} />
       <Tabs.Screen name="Search" options={{ headerShown: false }} />
+      <Tabs.Screen name="BookMark" options={{ headerShown: false }} />
       <Tabs.Screen name="Profile" options={{ headerShown: false }} />
     </Tabs>
   );

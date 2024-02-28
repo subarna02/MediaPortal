@@ -1,5 +1,5 @@
 import { Link } from "expo-router";
-import { View, Text, TextInput, Button, TouchableOpacity } from "react-native";
+import { View, Text, TextInput, TouchableOpacity } from "react-native";
 // import "../../global.css";
 
 const Login = () => {
@@ -23,7 +23,7 @@ const Login = () => {
       <View className="mt-10">
         <TouchableOpacity>
           <Link
-            href="/dashboard/Home"
+            href="/(tabs)/Home"
             className=" text-center px-2 py-5 rounded text-2xl bg-black text-white"
           >
             Login
@@ -34,7 +34,7 @@ const Login = () => {
       <View>
         <Text className="text-lg mt-10  text-center">
           Don't have an account?
-          <Link href="auth/Signup" className="text-blue-600">
+          <Link href="(auth)/Signup" className="text-blue-600">
             Signup
           </Link>
         </Text>

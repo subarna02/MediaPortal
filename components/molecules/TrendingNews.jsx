@@ -2,6 +2,7 @@ import { View, Text } from "react-native";
 import Carousel from "react-native-snap-carousel";
 import TrendingCarousel from "../atoms/TrendingCarousel";
 import { LogBox } from "react-native";
+import { Link } from "expo-router";
 
 const TrendingNews = () => {
   LogBox.ignoreLogs(["ViewPropTypes"]);
@@ -44,7 +45,7 @@ const TrendingNews = () => {
         <Text className="text-3xl font-medium">
           <Text className="text-red-600">Trending</Text> News
         </Text>
-        <Text className="text-2xl text-zinc-500">See all</Text>
+        <Link href='/newsPage/TrendingNews' className="text-lg text-zinc-500">See all</Link>
       </View>
       <View className="py-3">
         <TrendingCarousel data={data} />

@@ -1,6 +1,7 @@
 import { StyleSheet, Text, View } from "react-native";
 import React from "react";
 import NewsCard from "../atoms/NewsCard";
+import { Link } from "expo-router";
 
 const International = () => {
   const data = [
@@ -39,7 +40,7 @@ const International = () => {
         <Text className="text-3xl font-medium">
           <Text className="text-red-600">International</Text> News
         </Text>
-        <Text className="text-2xl text-zinc-500">See all</Text>
+        <Link href='/newsPage/InternationalNews' className="text-lg text-zinc-500">See all</Link>
       </View>
       <View className="py-3">
         <NewsCard data={data} />

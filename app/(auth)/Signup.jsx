@@ -46,7 +46,7 @@ const Signup = () => {
       {/* <Text className="text-center py-5">or</Text> */}
       <View>
         <Text className="text-lg mt-10  text-center">
-          Alreday have an account? <Link href='/auth/Login' className="text-blue-600">Login</Link>
+          Alreday have an account? <Link href='/(auth)/Login' className="text-blue-600">Login</Link>
         </Text>
       </View>
     </View>
